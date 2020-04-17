@@ -1,5 +1,6 @@
 #!/bin/bash
 source ./vars.sh
+
 cd $TMP_DIR
 sudo chmod +x * -R
 # ssh-keyscan -H github.com >> ~/.ssh/known_hosts
